@@ -1,0 +1,17 @@
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Build/
+*.csproj
+*.slnx
+MemoryCaptures/
+Recordings/
+.vs/
+.idea/
+*.sln
+*.user
+*.suo
+__pycache__/
+*.pyc

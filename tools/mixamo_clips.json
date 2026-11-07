@@ -1,0 +1,27 @@
+{
+ "_about": "Mixamo clips (downloaded by Razvan: FBX, without skin or T-pose, 30 fps, in place) added to the soldiers' rigs by tools/mixamo_clips.py. Key = clip name in our rigs; value = file under C:/AI/tools/anim_library. 'loop' lists the looping ones.",
+ "models": ["infantry", "archer", "cavalry"],
+ "clips": {
+  "BowDraw": "mixamo_archery/Standing Draw Arrow.fbx",
+  "BowAim": "mixamo_archery/Standing Aim Overdraw.fbx",
+  "BowRelease": "mixamo_archery/Standing Aim Recoil.fbx",
+  "BowAimWalk": "mixamo_archery/Standing Aim Walk Forward.fbx",
+  "SSIdle": "mixamo_sword_shield/sword and shield idle.fbx",
+  "SSBlockIdle": "mixamo_sword_shield/sword and shield block idle.fbx",
+  "SSBlock": "mixamo_sword_shield/sword and shield block.fbx",
+  "SSSlash1": "mixamo_sword_shield/sword and shield slash.fbx",
+  "SSSlash2": "mixamo_sword_shield/sword and shield slash (2).fbx",
+  "SSSlash3": "mixamo_sword_shield/sword and shield slash (3).fbx",
+  "SSSlash4": "mixamo_sword_shield/sword and shield slash (4).fbx",
+  "SSSlash5": "mixamo_sword_shield/sword and shield slash (5).fbx",
+  "SSAttack1": "mixamo_sword_shield/sword and shield attack.fbx",
+  "SSAttack2": "mixamo_sword_shield/sword and shield attack (2).fbx",
+  "SSImpact": "mixamo_sword_shield/sword and shield impact.fbx",
+  "SSImpact2": "mixamo_sword_shield/sword and shield impact (2).fbx",
+  "SSDeath": "mixamo_sword_shield/sword and shield death.fbx",
+  "SSDeath2": "mixamo_sword_shield/sword and shield death (2).fbx",
+  "SSRun": "mixamo_sword_shield/sword and shield run.fbx",
+  "SSKick": "mixamo_sword_shield/sword and shield kick.fbx"
+ },
+ "loop": ["BowAim", "BowAimWalk", "SSIdle", "SSBlockIdle", "SSRun"]
+}

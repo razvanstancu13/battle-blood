@@ -1,0 +1,258 @@
+{
+ "_about": "Which generated variant of each asset goes into the game, chosen by looking at contact sheets. All variants of a sound are used. tools/import_assets.py reads this.",
+ "textures": {
+  "grass": "grass_01_tile.png",
+  "grass_dry": "grass_dry_02_tile.png",
+  "dirt": "dirt_02_tile.png",
+  "mud": "mud_01_tile.png",
+  "rock": "rock_01_tile.png",
+  "moss": "moss_01_tile.png",
+  "wood": "wood_02_tile.png",
+  "blood_tile": "blood_tile_01_tile.png",
+  "sky_overcast": "sky_overcast_01_tile.png",
+  "sky_dawn": "sky_dawn_03_tile.png",
+  "sky_dusk": "sky_dusk_01_tile.png",
+  "sky_fair": "sky_fair_01_tile.png",
+  "water_n": "water_n_02_tile.png",
+  "grass_card": "grass_card_01.png",
+  "flower_card": "flower_card_02.png",
+  "reed_card": "reed_card_02.png",
+  "feather": "feather_01.png",
+  "banner": "banner_01.png",
+  "blood_a": "blood_a_01.png",
+  "blood_b": "blood_b_01.png",
+  "blood_c": "blood_c_01.png",
+  "blood_pool": "blood_pool_01.png",
+  "blood_spray": "blood_spray_01.png",
+  "wound": "wound_02.png",
+  "smoke": "smoke_03.png",
+  "dust": "dust_03.png",
+  "fire": "fire_03.png",
+  "spark": "spark_01.png",
+  "leaf_card": "leaf_card_01.png",
+  "oak_card": "oak_card_02.png",
+  "pine_card": "pine_card_02.png",
+  "pine_bark": "pine_bark_01_tile.png"
+ },
+ "normals": {
+  "grass": 2.0,
+  "grass_dry": 2.0,
+  "dirt": 2.5,
+  "mud": 2.0,
+  "rock": 3.0,
+  "pine_bark": 3.0
+ },
+ "crop": [
+  "grass_card",
+  "flower_card",
+  "reed_card",
+  "banner",
+  "leaf_card",
+  "oak_card",
+  "pine_card"
+ ],
+ "height_to_normal": {
+  "water_n": 3.0
+ },
+ "ui": {
+  "logo": "logo_01.png",
+  "menu_key": "menu_key_01.png",
+  "icon_infantry": "icon_infantry_01.png",
+  "icon_archer": "icon_archer_03.png",
+  "icon_cavalry": "icon_cavalry_01.png",
+  "blood_lens": "blood_lens_01.png"
+ },
+ "audio": {
+  "armour": [
+   "armour_01.ogg",
+   "armour_02.ogg"
+  ],
+  "arrow_body": [
+   "arrow_body_01.ogg",
+   "arrow_body_02.ogg",
+   "arrow_body_03.ogg"
+  ],
+  "arrow_ground": [
+   "arrow_ground_01.ogg",
+   "arrow_ground_02.ogg"
+  ],
+  "arrow_light": [
+   "arrow_light_01.ogg",
+   "arrow_light_02.ogg"
+  ],
+  "arrow_wood": [
+   "arrow_wood_01.ogg",
+   "arrow_wood_02.ogg"
+  ],
+  "bash": [
+   "bash_01.ogg",
+   "bash_02.ogg"
+  ],
+  "block": [
+   "block_01.ogg",
+   "block_02.ogg",
+   "block_03.ogg"
+  ],
+  "bow_draw": [
+   "bow_draw_01.ogg",
+   "bow_draw_02.ogg"
+  ],
+  "bow_release": [
+   "bow_release_01.ogg",
+   "bow_release_02.ogg",
+   "bow_release_03.ogg"
+  ],
+  "burn_scream": [
+   "burn_scream_01.ogg",
+   "burn_scream_02.ogg",
+   "burn_scream_03.ogg"
+  ],
+  "clash": [
+   "clash_01.ogg",
+   "clash_02.ogg",
+   "clash_03.ogg"
+  ],
+  "cry": [
+   "cry_01.ogg",
+   "cry_02.ogg",
+   "cry_03.ogg"
+  ],
+  "death": [
+   "death_01.ogg",
+   "death_02.ogg",
+   "death_03.ogg",
+   "death_04.ogg"
+  ],
+  "defeat": [
+   "defeat_01.ogg",
+   "defeat_02.ogg"
+  ],
+  "fire": [
+   "fire_loop.ogg"
+  ],
+  "fire_fly": [
+   "fire_fly_01.ogg",
+   "fire_fly_02.ogg"
+  ],
+  "flesh": [
+   "flesh_01.ogg",
+   "flesh_02.ogg",
+   "flesh_03.ogg",
+   "flesh_04.ogg"
+  ],
+  "gallop": [
+   "gallop_loop.ogg"
+  ],
+  "gore": [
+   "gore_01.ogg",
+   "gore_02.ogg",
+   "gore_03.ogg",
+   "gore_04.ogg"
+  ],
+  "hoof": [
+   "hoof_01.ogg",
+   "hoof_02.ogg",
+   "hoof_03.ogg"
+  ],
+  "horn": [
+   "horn_01.ogg",
+   "horn_02.ogg"
+  ],
+  "horse_scream": [
+   "horse_scream_01.ogg",
+   "horse_scream_02.ogg"
+  ],
+  "ignite": [
+   "ignite_01.ogg",
+   "ignite_02.ogg",
+   "ignite_03.ogg"
+  ],
+  "melee": [
+   "melee_loop.ogg"
+  ],
+  "music_battle": [
+   "music_battle_loop.ogg"
+  ],
+  "music_march": [
+   "music_march_loop.ogg"
+  ],
+  "music_menu": [
+   "music_menu_loop.ogg"
+  ],
+  "neigh": [
+   "neigh_01.ogg",
+   "neigh_02.ogg"
+  ],
+  "pain": [
+   "pain_01.ogg",
+   "pain_02.ogg",
+   "pain_03.ogg",
+   "pain_04.ogg"
+  ],
+  "scream": [
+   "scream_01.ogg",
+   "scream_02.ogg",
+   "scream_03.ogg",
+   "scream_04.ogg"
+  ],
+  "sever": [
+   "sever_01.ogg",
+   "sever_02.ogg",
+   "sever_03.ogg",
+   "sever_04.ogg"
+  ],
+  "snort": [
+   "snort_01.ogg",
+   "snort_02.ogg"
+  ],
+  "spurt": [
+   "spurt_01.ogg",
+   "spurt_02.ogg",
+   "spurt_03.ogg"
+  ],
+  "step": [
+   "step_01.ogg",
+   "step_02.ogg",
+   "step_03.ogg",
+   "step_04.ogg"
+  ],
+  "step_mud": [
+   "step_mud_01.ogg",
+   "step_mud_02.ogg",
+   "step_mud_03.ogg"
+  ],
+  "swamp": [
+   "swamp_loop.ogg"
+  ],
+  "swing": [
+   "swing_01.ogg",
+   "swing_02.ogg",
+   "swing_03.ogg"
+  ],
+  "trample": [
+   "trample_01.ogg",
+   "trample_02.ogg",
+   "trample_03.ogg"
+  ],
+  "ui_click": [
+   "ui_click_01.ogg",
+   "ui_click_02.ogg"
+  ],
+  "victory": [
+   "victory_01.ogg",
+   "victory_02.ogg"
+  ],
+  "wind": [
+   "wind_loop.ogg"
+  ],
+  "rain": [
+   "rain_loop.ogg"
+  ],
+  "thunder": [
+   "thunder_01.ogg",
+   "thunder_02.ogg",
+   "thunder_03.ogg"
+  ]
+ },
+ "video": null
+}

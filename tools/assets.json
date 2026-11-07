@@ -1,0 +1,179 @@
+{
+ "_about": "Every 3D LAGP asset of Battle Blood. gen_concepts.py and gen_models.py read this. Seeds fixed so jobs can be re-made. White cloth on units/shields/tents is what the team tint recolours, so one model serves both armies.",
+ "light": "Flat even ambient lighting from all sides, no directional light, no cast shadows, no shading highlights, unlit albedo colours",
+ "characters": {
+  "infantry": {
+   "seed": 1101,
+   "pick": 1,
+   "prompt": "medieval foot soldier man, dark steel chainmail hauberk and mail coif, plain pure white cloth tabard over the mail, brown leather belt, dark steel nasal helmet, dark grey hose, dark brown leather boots, dark leather gloves, empty hands, no weapons"
+  },
+  "archer": {
+   "seed": 1202,
+   "pick": 1,
+   "prompt": "medieval longbow archer man, plain pure white linen tunic with a white hood, brown leather jerkin, brown leather bracers on the forearms, dark grey hose, brown leather boots, short beard, empty hands, no weapons"
+  },
+  "cavalry": {
+   "seed": 1322,
+   "pick": 2,
+   "prompt": "medieval mounted knight man wearing a long plain pure white sleeveless cloth surcoat that covers his chest and belly down to the knees, bright polished silver chainmail sleeves and mail chausses under it, bright silver steel plate pauldrons and knee cops, brown leather belt over the surcoat, bright polished silver steel great helm with eye slit, light grey steel gauntlets, dark brown leather boots, empty hands, no weapons",
+   "_note": "2026-11-05: the dark steel version (seed 1313) textured as black lumps with no plate detail; set aside in models/_set_aside/cavalry_darksteel.",
+   "shape_seed": 1331
+  }
+ },
+ "animals": {
+  "horse": {
+   "seed": 1411,
+   "pick": 3,
+   "height": 1.65,
+   "tris": 10000,
+   "prompt": "photorealistic medieval war horse destrier gelding, chestnut brown coat, black mane, long full black tail lifted and streaming straight out behind the rump in the wind, the tail held high and well clear of the hind legs, clear gap between all four legs, plain pure white saddle blanket on its back, brown leather saddle and bridle, no rider",
+   "_note": "2026-11-06: full tail held out behind (along the rig's tail bones, clear of the hind legs). The docked-tail horse is kept in models/_set_aside/horse_docked_tail."
+  }
+ },
+ "props": {
+  "sword": {
+   "seed": 2001,
+   "pick": 4,
+   "height": 1.0,
+   "tris": 2500,
+   "res": 1536,
+   "faces": 120000,
+   "tex": 1024,
+   "view": "strict front view, standing upright with the point up",
+   "prompt": "a medieval arming sword, straight polished steel double edged blade, simple steel crossguard, dark leather wrapped grip, round steel pommel, no scabbard, no hands"
+  },
+  "shield": {
+   "seed": 2002,
+   "pick": 3,
+   "height": 0.95,
+   "tris": 2500,
+   "res": 1536,
+   "faces": 120000,
+   "tex": 1024,
+   "view": "front view, slightly from the side",
+   "prompt": "a medieval heater kite shield, plain pure white painted wooden face with no emblem, dark iron rim and iron boss, no hands"
+  },
+  "quiver": {
+   "seed": 2003,
+   "pick": 1,
+   "height": 0.75,
+   "tris": 2000,
+   "tex": 1024,
+   "prompt": "a medieval brown leather arrow quiver full of arrows with white feather fletchings, upright, with a strap"
+  },
+  "oak": {
+   "seed": 2010,
+   "pick": 4,
+   "height": 14.0,
+   "tris": 9000,
+   "prompt": "a large old oak tree, thick gnarled trunk, wide dense rounded crown of many green leaves, on no ground",
+   "lod": 3000,
+   "max_parts": 60,
+   "upright": [
+    18,
+    0
+   ]
+  },
+  "pine": {
+   "seed": 2011,
+   "pick": 2,
+   "height": 18.0,
+   "tris": 9000,
+   "prompt": "a tall scots pine tree, straight reddish bark trunk, dark green needles in a conical crown, on no ground",
+   "lod": 3000,
+   "max_parts": 60,
+   "upright": [
+    7,
+    0
+   ]
+  },
+  "dead_tree": {
+   "seed": 2012,
+   "pick": 3,
+   "height": 9.0,
+   "tris": 9000,
+   "prompt": "a dead leafless swamp tree, bare twisted grey branches, weathered pale bark, on no ground",
+   "max_parts": 60,
+   "upright": [
+    9,
+    0
+   ]
+  },
+  "rock_a": {
+   "seed": 2020,
+   "pick": 1,
+   "height": 2.2,
+   "tris": 3000,
+   "tex": 2048,
+   "level": "--level base",
+   "prompt": "a large weathered grey granite boulder with cracks and lichen patches"
+  },
+  "rock_b": {
+   "seed": 2021,
+   "pick": 1,
+   "height": 3.5,
+   "tris": 3000,
+   "tex": 2048,
+   "level": "--level base",
+   "prompt": "a tall jagged grey limestone rock outcrop with sharp facets and moss at the base"
+  },
+  "tent": {
+   "seed": 2030,
+   "pick": 1,
+   "height": 4.0,
+   "tris": 3000,
+   "tex": 2048,
+   "level": "--level base",
+   "prompt": "a medieval pavilion army tent, plain pure white canvas walls, conical roof, wooden centre pole, closed entrance, no emblem",
+   "upright": [
+    20,
+    0
+   ]
+  },
+  "cart": {
+   "seed": 2141,
+   "pick": 1,
+   "height": 1.8,
+   "tris": 5000,
+   "tex": 2048,
+   "level": "--level base",
+   "prompt": "a crude medieval two wheeled farm cart, two solid disc wheels each cut from three thick wooden boards like round tabletops, a heavy dark timber bed and two long shafts, empty"
+  },
+  "ruin": {
+   "seed": 2032,
+   "pick": 3,
+   "height": 5.0,
+   "tris": 5000,
+   "tex": 2048,
+   "level": "--level base",
+   "prompt": "a ruined medieval stone castle wall section, crumbled top edge, grey mossy blocks, an arched window, free standing"
+  },
+  "stakes": {
+   "seed": 2033,
+   "pick": 1,
+   "height": 1.6,
+   "tris": 3000,
+   "tex": 2048,
+   "level": "--level base",
+   "prompt": "a row of medieval sharpened wooden anti cavalry stakes crossed in an X frame, rough dark timber, pointing up and outwards"
+  },
+  "log": {
+   "seed": 2034,
+   "pick": 2,
+   "height": 0.9,
+   "tris": 2000,
+   "tex": 1024,
+   "level": "--level base",
+   "prompt": "a fallen rotten tree trunk log lying on its side, dark wet bark, moss, broken ends"
+  },
+  "barrel": {
+   "seed": 2035,
+   "pick": 1,
+   "height": 1.0,
+   "tris": 1500,
+   "tex": 1024,
+   "level": "--level base",
+   "prompt": "a medieval wooden barrel with dark iron hoops, old weathered oak staves, upright"
+  }
+ }
+}
